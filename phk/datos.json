@@ -1,0 +1,42 @@
+{ 
+  'wiki-url':"http://percepcionunitaria.org/", 
+  'dateTimeFormat': 'Gregorian',
+  'events': [
+    {
+       'start':"Jan 01 1917 00:00:00 GMT-0600",
+       'title':"Revolución Rusa",
+       'durationEvent':false // Notes: not "false". And no trailing comma.
+     }, {
+       'start':"Wed May 01 1947 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Revolución China",
+       'description':"Descripcion de la revolución China"
+     }, {
+       'start':"Jun 01 1954 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Vacas y Petróleo",
+       'description':"En 1954 una vaca era el precio para comprar un barril de petróleo."
+     }, {
+       'start':"Jun 01 2002 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Vacas y Petróleo",
+       'description':"En 2002 se necesitan 20 vacas para comprar un barril de petróleo."
+     }, {
+       'start':"Jun 01 1997 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Población Humana",
+       'description':"En 1997 llegamos a 6 mil millones de personas."
+     }, {
+       'start':"Jun 01 1648 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Finaliza la guerra de 30 años entre Católicos y Protestantes",
+       'description':"Europa queda dividida de manera estable en <i>Católicos</i>(Lo que resta del imperio romano) y <i>Protestantes</i>(Anglosajones y Escandinavos)"
+     }, {
+       'start':"Jun 01 1600 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Asesinato de Giordano Bruno",
+       'description':"El sacerdote Giordano Bruno es quemado en la hoguera de la santa inquisición"
+     }
+
+   ]    // Note: Do NOT include a trailing comma! (Breaks on IE)
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+#pu-timeline {
+  height: 250px;
+  border: 1px solid #aaa;
+}
+</style>
+<script src="http://static.simile.mit.edu/timeline/api-2.3.0/timeline-api.js?bundle=true" type="text/javascript"></script>
+<script type="text/javascript">
+var tl;
+ function onLoad() {
+   var eventSource = new Timeline.DefaultEventSource();
+   var bandInfos = [
+     Timeline.createBandInfo({
+         eventSource:    eventSource,
+         date:           "Jan 01 1917 00:00:00 GMT",
+         width:          "40%", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 50
+     }),
+     Timeline.createBandInfo({
+         eventSource:    eventSource,
+         date:           "Jan 01 1917 00:00:00 GMT",
+         width:          "30%", 
+         intervalUnit:   Timeline.DateTime.YEAR, 
+         intervalPixels: 50,
+     }),
+     Timeline.createBandInfo({
+         eventSource:    eventSource,
+         date:           "Jan 01 1917 00:00:00 GMT",
+         width:          "30%",
+         intervalUnit:   Timeline.DateTime.DECADE,
+         intervalPixels: 50,
+     })
+   ];
+   bandInfos[1].syncWith = 0;
+   bandInfos[1].highlight = true;
+   bandInfos[2].syncWith = 1;
+   bandInfos[2].highlight = true;
+   tl = Timeline.create(document.getElementById("pu-timeline"), bandInfos);
+   Timeline.loadJSON("datos.json", function(json, url) { eventSource.loadJSON(json, url); });
+ }
+
+ var resizeTimerID = null;
+ function onResize() {
+     if (resizeTimerID == null) {
+         resizeTimerID = window.setTimeout(function() {
+             resizeTimerID = null;
+             tl.layout();
+         }, 500);
+     }
+ }
+</script>
+<title>Cronología de un descubrimiento trascendental: La Percepción Unitaria</title>
+</head>
+
+<body onload="onLoad();" onresize="onResize();">
+<h1>Cronología de un descubrimiento trascendental: La Percepción Unitaria</h1>
+
+<div id="pu-timeline"></div>
+<noscript>
+Esta página usa JavaScript para mostrar la cronología. Por favor,
+active JavaScript en su navegador para ver toda la página. Gracias.
+</noscript>
+<hr>
+<address></address>
+<!-- hhmts start -->Last modified: Sun Jan 23 16:00:46 CST 2011 <!-- hhmts end -->
+</body> </html>
