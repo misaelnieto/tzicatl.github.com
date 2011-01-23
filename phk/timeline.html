@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style>
 #pu-timeline {
-  height: 250px;
+  height: 500px;
   border: 1px solid #aaa;
 }
 </style>
@@ -17,23 +17,23 @@ var tl;
      Timeline.createBandInfo({
          eventSource:    eventSource,
          date:           "Jan 01 1917 00:00:00 GMT",
-         width:          "40%", 
-         intervalUnit:   Timeline.DateTime.MONTH, 
-         intervalPixels: 50
-     }),
-     Timeline.createBandInfo({
-         eventSource:    eventSource,
-         date:           "Jan 01 1917 00:00:00 GMT",
-         width:          "30%", 
+         width:          "25%", 
          intervalUnit:   Timeline.DateTime.YEAR, 
          intervalPixels: 50,
      }),
      Timeline.createBandInfo({
          eventSource:    eventSource,
          date:           "Jan 01 1917 00:00:00 GMT",
-         width:          "30%",
+         width:          "25%",
          intervalUnit:   Timeline.DateTime.DECADE,
          intervalPixels: 50,
+     }),
+     Timeline.createBandInfo({
+         eventSource:    eventSource,
+         date:           "Jan 01 1917 00:00:00 GMT",
+         width:          "35%",
+         intervalUnit:   Timeline.DateTime.CENTURY,
+         intervalPixels: 25,
      })
    ];
    bandInfos[1].syncWith = 0;
@@ -67,5 +67,5 @@ active JavaScript en su navegador para ver toda la página. Gracias.
 </noscript>
 <hr>
 <address></address>
-<!-- hhmts start -->Last modified: Sun Jan 23 16:00:46 CST 2011 <!-- hhmts end -->
+<!-- hhmts start -->Last modified: Sun Jan 23 16:50:21 CST 2011 <!-- hhmts end -->
 </body> </html>
