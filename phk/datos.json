@@ -36,6 +36,11 @@
        'durationEvent':false,
        'title':"Asesinato de Giordano Bruno",
        'description':"El sacerdote Giordano Bruno es quemado en la hoguera de la santa inquisición"
+     }, {
+       'start':"Jan 01 1986 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Última conferencia de J. Krishnamurti",
+       'description':"En 1986 Jiddu krishnamurti da su última conferencia en Madrás, India."
      }
 
    ]    // Note: Do NOT include a trailing comma! (Breaks on IE)
