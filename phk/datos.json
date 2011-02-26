@@ -61,6 +61,16 @@
        'durationEvent':false,
        'title':"Encuentro de Rubén Feldman y Enrique Biascoechea",
        'description':"Enrique Biascoechea fue amigo de Jiddu Krishnamurti desde los 9 años. Rubén Feldman se reune con él en Puerto Rico. Enrique escribió una carta a Krishnamurti diciéndole que Rubén había dejado a sus padres, sus dos hijos pequeños, sus posesiones y amigos, profesión y estatus, para conocerlo."
+     }, {
+       'start':"Jan 5 1975 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Carta de Mary Zimbalist a RFG",
+       'description':"Desde Ojai, California, Mary Zimbalist contacta a RFG para informarle que tiene agendada una entrevista personal con Jiddu Krishnamurti en Marzo de ese mismo año."
+     }, {
+       'start':"Mar 23 1975 16:00:00 GMT-0800" ,
+       'durationEvent':false,
+       'title':"Primera entrevista de RFG y JK",
+       'description':"Se entrevistan JK y RFG a las 4:00 pm en el hotel huntington de San Francisco, California, Estados Unidos.<br/> <cite>Rubén: Mi nombre es Rubén Ernesto Feldman González<br/>Krishnamurti: Eso es confuso ¿Puedo llamarlo Dr. González?<br/>Rubén: Por supuesto, pero mi nombre verdadero es rabia.<br/>Krishnamurti: ¡Ah! Me alegra que usted no use una máscara como tantos que vienen a mí\npretendiendo ser santos.</cite>"
      }
 
    ]    // Note: Do NOT include a trailing comma! (Breaks on IE)
