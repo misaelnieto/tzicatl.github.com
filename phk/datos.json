@@ -51,6 +51,11 @@
        'durationEvent':false,
        'title':"Muere J. Krishnamurti",
        'description':"Muerte de Jiddu Krishnamurti."
+     }, {
+       'start':"Aug 22 1972 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Masacre de Trelew",
+       'description':"Un grupo de guerrilleros de izquierda es masacrado en la cárcel de la Municipalidad de Trelew, Provincia del Chubut, Argentina"
      }
 
    ]    // Note: Do NOT include a trailing comma! (Breaks on IE)
