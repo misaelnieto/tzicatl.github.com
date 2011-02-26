@@ -39,7 +39,7 @@
      }, {
        'start':"Jan 01 1986 00:00:00 GMT-0600" ,
        'durationEvent':false,
-       'title':"Última conferencia de J. Krishnamurti",
+       'title':"Última conferencia de J. Krishnamurti en Madrás India",
        'description':"En 1986 Jiddu krishnamurti da su última conferencia en Madrás, India."
      }, {
        'start':"May 11 1895 00:00:00 GMT-0600" ,
@@ -71,6 +71,11 @@
        'durationEvent':false,
        'title':"Primera entrevista de RFG y JK",
        'description':"Se entrevistan JK y RFG a las 4:00 pm en el hotel huntington de San Francisco, California, Estados Unidos.<br/> <cite>Rubén: Mi nombre es Rubén Ernesto Feldman González<br/>Krishnamurti: Eso es confuso ¿Puedo llamarlo Dr. González?<br/>Rubén: Por supuesto, pero mi nombre verdadero es rabia.<br/>Krishnamurti: ¡Ah! Me alegra que usted no use una máscara como tantos que vienen a mí\npretendiendo ser santos.</cite>"
+     }, {
+       'start':"Sep 01 1985 12:00:00 GMT-0000" ,
+       'durationEvent':false,
+       'title':"JK-2 se deshace de la palabra Meditacion y habla de RFG",
+       'description':'Conferencia (4a parte) en Brockwood Park. JK dice que no usará mas la palabra "Meditación", por que se ha vuelto una palabra estúpida. <a href="http://www.youtube.com/watch?v=fmVIomajCsE" >http://www.youtube.com/watch?v=fmVIomajCsE </a>'
      }
 
    ]    // Note: Do NOT include a trailing comma! (Breaks on IE)
