@@ -24,7 +24,7 @@
      }, {
        'start':"Jun 01 1997 00:00:00 GMT-0600" ,
        'durationEvent':false,
-       'title':"Población Humana",
+       'title':"Población Humana llega a 6 mil millones",
        'description':"En 1997 llegamos a 6 mil millones de personas."
      }, {
        'start':"Jun 01 1648 00:00:00 GMT-0600" ,
@@ -56,6 +56,11 @@
        'durationEvent':false,
        'title':"Masacre de Trelew",
        'description':"Un grupo de guerrilleros de izquierda es masacrado en la cárcel de la Municipalidad de Trelew, Provincia del Chubut, Argentina"
+     }, {
+       'start':"Jun 15 1974 00:00:00 GMT-0600" ,
+       'durationEvent':false,
+       'title':"Encuentro de Rubén Feldman y Enrique Biascoechea",
+       'description':"Enrique Biascoechea fue amigo de Jiddu Krishnamurti desde los 9 años. Rubén Feldman se reune con él en Puerto Rico. Enrique escribió una carta a Krishnamurti diciéndole que Rubén había dejado a sus padres, sus dos hijos pequeños, sus posesiones y amigos, profesión y estatus, para conocerlo."
      }
 
    ]    // Note: Do NOT include a trailing comma! (Breaks on IE)
